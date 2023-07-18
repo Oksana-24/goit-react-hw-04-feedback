@@ -1,0 +1,11 @@
+.statisticsText {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.statisticsTotal {
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration-line: underline;
+  color: #af4e4c;
+}

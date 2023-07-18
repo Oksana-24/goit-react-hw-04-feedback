@@ -1,0 +1,22 @@
+.buttonList {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.buttonItem {
+  width: 80px;
+  height: 30px;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  border: 2px solid #c2cdce;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+}
+
+.buttonItem:hover {
+  background-color: #af4e4c;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
